@@ -1,0 +1,130 @@
+body, h1, h2, h3, p, ul, ol, li, form, fieldset {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    width: 100%;
+}
+
+/* Header styles */
+header {
+    background-color: #040e97;
+    color: #fff;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 10px;
+}
+
+nav a:hover {
+    background-color: #006aff;
+}
+
+nav button {
+    background-color: #e74c3c;
+    color: white;
+    padding: 15px 15px;
+    border-radius: 5px;
+}
+
+nav button:hover {
+    background-color: #c0392b;
+}
+
+.adminForm,
+.adminForm2 {
+    width: 50%;
+    margin-top: 20px;
+    float: left;
+}
+
+.adminForm h2,
+.adminForm2 h2 {
+    text-align: center;
+}
+
+.adminForm label,
+.adminForm2 label {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 15%;
+}
+
+.adminForm input[type="text"],
+.adminForm input[type="password"],
+.adminForm input[type="number"],
+.adminForm select,
+.adminForm2 input[type="text"],
+.adminForm2 input[type="date"],
+.adminForm2 input[type="time"],
+.adminForm2 select {
+    width: 65%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.adminForm input[type="submit"],
+.adminForm2 input[type="submit"] {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    padding: 10px 150px;
+    background-color: rgb(4, 0, 244);
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.adminForm input[type="submit"]:hover,
+.adminForm2 input[type="submit"]:hover {
+    background-color: black;
+}
+
+
+
+.available-Course {
+    width: 100%;
+}
+
+.available-Course th,
+.available-Course td {
+    border: 1px solid #ddd;
+    padding: 5px;
+    text-align: left;
+    width: 150px;
+    word-wrap: break-word;
+}
+
+.available-Course th {
+    background-color: rgb(31, 10, 120);
+    color: white;
+}
+
+.available-Course tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+
+.available-Course a:hover {
+    text-decoration: underline;
+}
+
+#error-message {
+    color: red;
+}

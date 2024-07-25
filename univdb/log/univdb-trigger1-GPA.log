@@ -1,0 +1,4 @@
+Changed database context to 'univdb'.
+Msg 3701, Level 11, State 5, Server Ali-sweidan, Line 3
+Cannot drop the trigger 'UpdateGPA', because it does not exist or you do not have permission.
+Changed database context to 'univdb'.

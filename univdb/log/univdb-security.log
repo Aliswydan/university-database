@@ -1,0 +1,36 @@
+Changed database context to 'master'.
+Msg 15025, Level 16, State 1, Server Ali-sweidan, Line 1
+The server principal 'farid' already exists.
+name                                                                                                                            
+--------------------------------------------------------------------------------------------------------------------------------
+sa                                                                                                                              
+##MS_SQLResourceSigningCertificate##                                                                                            
+##MS_SQLReplicationSigningCertificate##                                                                                         
+##MS_SQLAuthenticatorCertificate##                                                                                              
+##MS_PolicySigningCertificate##                                                                                                 
+##MS_SmoExtendedSigningCertificate##                                                                                            
+##MS_PolicyTsqlExecutionLogin##                                                                                                 
+ALI-SWEIDAN\Ali                                                                                                                 
+NT SERVICE\SQLWriter                                                                                                            
+NT SERVICE\Winmgmt                                                                                                              
+NT Service\MSSQLSERVER                                                                                                          
+NT AUTHORITY\SYSTEM                                                                                                             
+NT SERVICE\SQLSERVERAGENT                                                                                                       
+NT SERVICE\SQLTELEMETRY                                                                                                         
+##MS_PolicyEventProcessingLogin##                                                                                               
+##MS_AgentSigningCertificate##                                                                                                  
+farid                                                                                                                           
+sami                                                                                                                            
+
+(18 rows affected)
+Changed database context to 'univdb'.
+Msg 15023, Level 16, State 8, Server Ali-sweidan, Line 1
+User, group, or role 'Managers' already exists in the current database.
+Msg 15023, Level 16, State 8, Server Ali-sweidan, Line 1
+User, group, or role 'Secretariat' already exists in the current database.
+Msg 15007, Level 16, State 1, Server Ali-sweidan, Procedure sp_adduser, Line 15
+'sami' is not a valid login or you do not have permission.
+Msg 15023, Level 16, State 5, Server Ali-sweidan, Line 1
+User, group, or role 'mark_viewer' already exists in the current database.
+Msg 15151, Level 16, State 1, Server Ali-sweidan, Line 3
+Cannot find the user 'mark_manag', because it does not exist or you do not have permission.

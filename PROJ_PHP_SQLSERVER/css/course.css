@@ -1,0 +1,93 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, ol, li, form, fieldset {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #040e97;
+    color: #fff;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 10px;
+}
+
+nav a:hover {
+    background-color: #006aff;
+}
+
+nav button {
+    background-color: #e74c3c;
+    color: white;
+    padding: 15px 15px;
+    border-radius: 5px;
+
+}
+
+nav button:hover {
+    background-color: #c0392b;
+}
+
+
+
+
+
+/* Main content styling */
+main {
+    padding: 20px 0;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #3f51b5;
+    color: white;
+}
+
+/* Additional styling for tables */
+.Enrolled-Courses, .available-courses {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+h2 {
+    color: #262222;
+    margin-bottom: 10px;
+}
+
+/* Custom styling for the "Already Enrolled" message */
+.already-enrolled {
+    color: #FF5733;
+    font-weight: bold;
+}

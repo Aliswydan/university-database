@@ -1,0 +1,5 @@
+Changed database context to 'univdb'.
+Msg 207, Level 16, State 1, Server Ali-sweidan, Procedure ti_markregister, Line 24
+Invalid column name 'obtainedCourses'.
+Msg 207, Level 16, State 1, Server Ali-sweidan, Procedure ti_markregister, Line 25
+Invalid column name 'acquiredCredits'.

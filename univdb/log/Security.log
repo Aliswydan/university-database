@@ -1,0 +1,38 @@
+Changed database context to 'univdb'.
+Msg 15025, Level 16, State 1, Server Ali-sweidan, Line 1
+The server principal 'zeinab Saghir' already exists.
+name                                                                                                                            
+--------------------------------------------------------------------------------------------------------------------------------
+sa                                                                                                                              
+##MS_SQLResourceSigningCertificate##                                                                                            
+##MS_SQLReplicationSigningCertificate##                                                                                         
+##MS_SQLAuthenticatorCertificate##                                                                                              
+##MS_PolicySigningCertificate##                                                                                                 
+##MS_SmoExtendedSigningCertificate##                                                                                            
+##MS_PolicyTsqlExecutionLogin##                                                                                                 
+ALI-SWEIDAN\Ali                                                                                                                 
+NT SERVICE\SQLWriter                                                                                                            
+NT SERVICE\Winmgmt                                                                                                              
+NT Service\MSSQLSERVER                                                                                                          
+NT AUTHORITY\SYSTEM                                                                                                             
+NT SERVICE\SQLSERVERAGENT                                                                                                       
+NT SERVICE\SQLTELEMETRY                                                                                                         
+farid                                                                                                                           
+##MS_PolicyEventProcessingLogin##                                                                                               
+##MS_AgentSigningCertificate##                                                                                                  
+zeinab Saghir                                                                                                                   
+
+(18 rows affected)
+Changed database context to 'univdb'.
+Msg 15151, Level 16, State 1, Server Ali-sweidan, Line 2
+Cannot find the object 'Course', because it does not exist or you do not have permission.
+Msg 15151, Level 16, State 1, Server Ali-sweidan, Line 3
+Cannot find the object 'Student', because it does not exist or you do not have permission.
+Msg 15151, Level 16, State 1, Server Ali-sweidan, Line 4
+Cannot find the object 'Teacher', because it does not exist or you do not have permission.
+Msg 15151, Level 16, State 1, Server Ali-sweidan, Line 5
+Cannot find the object 'MarkRegister', because it does not exist or you do not have permission.
+Msg 15151, Level 16, State 1, Server Ali-sweidan, Line 6
+Cannot find the object 'StudentCourses', because it does not exist or you do not have permission.
+Msg 15151, Level 16, State 1, Server Ali-sweidan, Line 7
+Cannot find the object 'Exam', because it does not exist or you do not have permission.
